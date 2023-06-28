@@ -3,7 +3,7 @@
   "displayName": "rosbag-control",
   "description": "Control a rosbag recording directly from a panel",
   "publisher": "Lynxdrone",
-  "homepage": "",
+  "homepage": "https://github.com/Lynxdrone/foxglove-rosbag-extension",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/extension.js",
