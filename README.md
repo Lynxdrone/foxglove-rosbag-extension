@@ -6,12 +6,15 @@ This extension offers controls to start and stop recording of a rosbag file with
 The following ROS parameters are available in the panel settings (within foxglove):
 * `/data_recording/bag_name` : rosbag file name
 * `/data_recording/output_directory` : file save directory (on the machine where the node is running)
-* `/data_recording/duration` : list of topics to save
+* `/data_recording/topics` : list of topics to save
 
 As the native [ROS 1](https://foxglove.dev/docs/studio/connection/data-sources#by-live-connection) connection doesn't allow to call services, the Foxglove WebSocket should be used :
 ```
 roslaunch foxglove_bridge foxglove_bridge.launch 
 ```
+
+## Install
+To install the extension, download the `.foxe` file present in the latest release. Open it with Foxglove Studio and it will be installed as a local extension.
 
 
 ## _A Foxglove Studio Extension_
